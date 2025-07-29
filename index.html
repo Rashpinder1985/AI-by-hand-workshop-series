@@ -71,12 +71,14 @@
     }
 
     .graphic img {
-      width: 100%;
-      height: auto;
-      border-radius: 8px;
-      margin-top: 1rem;
-      box-shadow: 0 4px 10px rgba(0,0,0,0.05);
-    }
+  max-width: 300px;
+  height: auto;
+  display: block;
+  margin: 1rem auto;
+  border-radius: 8px;
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.05);
+}
+
 
     .nav-buttons {
       text-align: center;
@@ -128,9 +130,8 @@
          Every Saturday | 7–8 PM IST | Live on Zoom • 1‑Month Program</p>
     </header>
     <div class="graphic">
-      <img src="AI by Hand Graphic.jpeg">
-      <!-- Replace with actual base64 or hosted image URL -->
-    </div>
+  <img src="data:image/png;base64,..." alt="AI by Hand graphic">
+</div>
     <section>
       <h2>Workshop Overview</h2>
       <p>This interactive series combines paper‑and‑pen math, beginner‑friendly Python coding, and AI research insights using the <em>AI by Hand Deep Learning Math Workbook (India Edition)</em>.</p>
@@ -196,9 +197,10 @@
     </section>
 <div style="background: #eef6fb; padding: 1.5rem; border-radius: 10px; margin-top: 2rem;">
   <h3 style="text-align: center; color: #2c3e50; margin-bottom: 1rem;">Backpropagation Visual</h3>
-  <div class="graphic" style="text-align: center;">
-    <img src="ai by hand gif.gif" alt="Backpropagation AI by Hand GIF" style="max-width: 100%; border-radius: 8px; box-shadow: 0 4px 10px rgba(0,0,0,0.05);">
-  </div>
+  <div class="graphic">
+  <img src="ai by hand gif.gif" alt="Backpropagation AI by Hand GIF">
+</div>
+
 </div>
 
     <div class="nav-buttons">
